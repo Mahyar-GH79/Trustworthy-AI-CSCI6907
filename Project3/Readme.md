@@ -102,9 +102,9 @@ model: gpt-4o-mini
 Some of the final results are shown here. For the complete set of outputs based on your preference, run the experiments with your own parameters, and analyzee the
 outputs.
 
-![Fig1](barplot_deflect.png)
-![Fig2](barplot_hedges.png)
-![Fig3](barplot_words.png)
-![Fig4](boxplot_words.png)
-![Fig5](scatter_words_vs_facts.png)
-![Fig6](radar_chart.png)
+![Fig1](results/barplot_deflect.png)
+![Fig2](results/barplot_hedges.png)
+![Fig3](results/barplot_words.png)
+![Fig4](results/boxplot_words.png)
+![Fig5](results/scatter_words_vs_facts.png)
+![Fig6](results/radar_chart.png)
