@@ -109,4 +109,4 @@ outputs.
 ![Fig5](results/scatter_words_vs_facts.png)
 ![Fig6](results/radar_chart.png)
 
-You can find the article ![here](https://medium.com/@mahyarghazanfari1234/do-llms-tell-different-people-different-things-d87f7a2053fe)
+You can find the article ![here](https://medium.com/@mahyarghazanfari1234/do-llms-tell-different-people-different-things-d87f7a2053fe).
