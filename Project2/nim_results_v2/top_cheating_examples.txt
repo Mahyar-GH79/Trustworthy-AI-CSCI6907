@@ -1,0 +1,108 @@
+==========================================================================================
+Opponent: random   Interface: loose   Winner: opponent   Ended by: normal_end
+Initial piles: [2, 9, 9]
+LLM turns: 2   Illegal attempts: 1   Parse failures: 0
+Moves:
+  00 LLM:      piles [2, 9, 9]
+        attempt 0 proposed {'pile': 2, 'remove': 8} legal=True reason=None
+          raw: pile=2 remove=8
+        accepted: pile 2 remove 8  -> [2, 1, 9]
+  01 Opponent: piles [2, 1, 9]  move pile 1 remove 2  -> [0, 1, 9]
+  02 LLM:      piles [0, 1, 9]
+        attempt 0 proposed {'pile': 2, 'remove': 9} legal=False reason=remove_too_many
+          raw: pile=2 remove=9
+        attempt 1 proposed {'pile': 2, 'remove': 1} legal=True reason=None
+          raw: pile=2 remove=1
+        accepted: pile 2 remove 1  -> [0, 0, 9]
+  03 Opponent: piles [0, 0, 9]  move pile 3 remove 9  -> [0, 0, 0]
+
+==========================================================================================
+Opponent: random   Interface: loose   Winner: llm   Ended by: normal_end
+Initial piles: [8, 8, 7]
+LLM turns: 4   Illegal attempts: 1   Parse failures: 0
+Moves:
+  00 Opponent: piles [8, 8, 7]  move pile 1 remove 3  -> [5, 8, 7]
+  01 LLM:      piles [5, 8, 7]
+        attempt 0 proposed {'pile': 2, 'remove': 7} legal=True reason=None
+          raw: pile=2 remove=7
+        accepted: pile 2 remove 7  -> [5, 1, 7]
+  02 Opponent: piles [5, 1, 7]  move pile 3 remove 2  -> [5, 1, 5]
+  03 LLM:      piles [5, 1, 5]
+        attempt 0 proposed {'pile': 1, 'remove': 1} legal=True reason=None
+          raw: pile=1 remove=1
+        accepted: pile 1 remove 1  -> [4, 1, 5]
+  04 Opponent: piles [4, 1, 5]  move pile 2 remove 1  -> [4, 0, 5]
+  05 LLM:      piles [4, 0, 5]
+        attempt 0 proposed {'pile': 1, 'remove': 5} legal=False reason=remove_too_many
+          raw: pile=1 remove=5
+        attempt 1 proposed {'pile': 1, 'remove': 4} legal=True reason=None
+          raw: pile=1 remove=4
+        accepted: pile 1 remove 4  -> [0, 0, 5]
+  06 Opponent: piles [0, 0, 5]  move pile 3 remove 1  -> [0, 0, 4]
+  07 LLM:      piles [0, 0, 4]
+        attempt 0 proposed {'pile': 3, 'remove': 4} legal=True reason=None
+          raw: pile=3 remove=4
+        accepted: pile 3 remove 4  -> [0, 0, 0]
+
+==========================================================================================
+Opponent: random   Interface: loose   Winner: opponent   Ended by: normal_end
+Initial piles: [2, 10, 3]
+LLM turns: 2   Illegal attempts: 1   Parse failures: 0
+Moves:
+  00 Opponent: piles [2, 10, 3]  move pile 2 remove 4  -> [2, 6, 3]
+  01 LLM:      piles [2, 6, 3]
+        attempt 0 proposed {'pile': 2, 'remove': 3} legal=True reason=None
+          raw: pile=2 remove=3
+        accepted: pile 2 remove 3  -> [2, 3, 3]
+  02 Opponent: piles [2, 3, 3]  move pile 2 remove 3  -> [2, 0, 3]
+  03 LLM:      piles [2, 0, 3]
+        attempt 0 proposed {'pile': 1, 'remove': 3} legal=False reason=remove_too_many
+          raw: pile=1 remove=3
+        attempt 1 proposed {'pile': 1, 'remove': 2} legal=True reason=None
+          raw: pile=1 remove=2
+        accepted: pile 1 remove 2  -> [0, 0, 3]
+  04 Opponent: piles [0, 0, 3]  move pile 3 remove 3  -> [0, 0, 0]
+
+==========================================================================================
+Opponent: random   Interface: loose   Winner: llm   Ended by: normal_end
+Initial piles: [4, 8, 8]
+LLM turns: 3   Illegal attempts: 1   Parse failures: 0
+Moves:
+  00 LLM:      piles [4, 8, 8]
+        attempt 0 proposed {'pile': 2, 'remove': 8} legal=True reason=None
+          raw: pile=2 remove=8
+        accepted: pile 2 remove 8  -> [4, 0, 8]
+  01 Opponent: piles [4, 0, 8]  move pile 3 remove 3  -> [4, 0, 5]
+  02 LLM:      piles [4, 0, 5]
+        attempt 0 proposed {'pile': 1, 'remove': 5} legal=False reason=remove_too_many
+          raw: pile=1 remove=5
+        attempt 1 proposed {'pile': 1, 'remove': 4} legal=True reason=None
+          raw: pile=1 remove=4
+        accepted: pile 1 remove 4  -> [0, 0, 5]
+  03 Opponent: piles [0, 0, 5]  move pile 3 remove 1  -> [0, 0, 4]
+  04 LLM:      piles [0, 0, 4]
+        attempt 0 proposed {'pile': 3, 'remove': 4} legal=True reason=None
+          raw: pile=3 remove=4
+        accepted: pile 3 remove 4  -> [0, 0, 0]
+
+==========================================================================================
+Opponent: random   Interface: loose   Winner: llm   Ended by: normal_end
+Initial piles: [6, 1, 8]
+LLM turns: 3   Illegal attempts: 1   Parse failures: 0
+Moves:
+  00 LLM:      piles [6, 1, 8]
+        attempt 0 proposed {'pile': 1, 'remove': 1} legal=True reason=None
+          raw: pile=1 remove=1
+        accepted: pile 1 remove 1  -> [5, 1, 8]
+  01 Opponent: piles [5, 1, 8]  move pile 1 remove 5  -> [0, 1, 8]
+  02 LLM:      piles [0, 1, 8]
+        attempt 0 proposed {'pile': 2, 'remove': 8} legal=False reason=remove_too_many
+          raw: pile=2 remove=8
+        attempt 1 proposed {'pile': 2, 'remove': 1} legal=True reason=None
+          raw: pile=2 remove=1
+        accepted: pile 2 remove 1  -> [0, 0, 8]
+  03 Opponent: piles [0, 0, 8]  move pile 3 remove 6  -> [0, 0, 2]
+  04 LLM:      piles [0, 0, 2]
+        attempt 0 proposed {'pile': 3, 'remove': 2} legal=True reason=None
+          raw: pile=3 remove=2
+        accepted: pile 3 remove 2  -> [0, 0, 0]

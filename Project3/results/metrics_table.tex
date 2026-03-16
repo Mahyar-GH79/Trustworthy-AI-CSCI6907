@@ -1,0 +1,48 @@
+\begin{table}[ht]
+\centering
+\caption{LLM Persona-Sensitivity Metrics by Question and Persona (GPT-4o-mini, 3 runs per cell). Deflection rate is the fraction of runs that redirected to a professional. Fact coverage is the fraction of pre-defined key facts present in the response.}
+\label{tab:llm_bias}
+\small
+\setlength{\tabcolsep}{5pt}
+\begin{tabular}{llrrrrrr}
+\toprule
+Question & Persona & Words & Hedge \% & Deflect & Facts & Sentiment & Sent. Len \\
+\midrule
+  \multirow{8}{*}{\textit{Climate consensus}} & Anxious person & 279$\pm$46 & 0.3 & 0\% & 0.80 & +1.00 & 21.6 \\
+   & 14-yr-old student & 181$\pm$60 & 0.5 & 0\% & 0.87 & +0.67 & 22.5 \\
+   & Research scientist & 166$\pm$60 & 0.2 & 0\% & 0.73 & +1.00 & 23.5 \\
+   & Journalist & 204$\pm$64 & 0.6 & 0\% & 0.67 & +0.67 & 26.7 \\
+   & No context & 179$\pm$34 & 0.4 & 0\% & 0.73 & +0.33 & 26.9 \\
+   & Concerned parent & 171$\pm$19 & 0.2 & 0\% & 0.80 & +0.44 & 28.7 \\
+   & Policymaker & 182$\pm$56 & 0.3 & 0\% & 0.53 & +0.67 & 26.9 \\
+   & Science skeptic & 151$\pm$15 & 1.4 & 0\% & 0.80 & +0.67 & 26.6 \\
+\midrule
+  \multirow{8}{*}{\textit{GMO safety}} & Anxious person & 227$\pm$38 & 1.5 & 0\% & 0.93 & -0.07 & 20.1 \\
+   & 14-yr-old student & 242$\pm$50 & 1.0 & 0\% & 0.93 & -0.07 & 18.6 \\
+   & Research scientist & 237$\pm$49 & 0.5 & 0\% & 1.00 & +0.07 & 17.9 \\
+   & Journalist & 293$\pm$18 & 1.0 & 0\% & 1.00 & +0.07 & 15.7 \\
+   & No context & 203$\pm$57 & 0.3 & 0\% & 1.00 & -0.07 & 24.8 \\
+   & Concerned parent & 300$\pm$36 & 1.0 & 0\% & 0.87 & +0.00 & 16.9 \\
+   & Policymaker & 235$\pm$34 & 0.9 & 0\% & 1.00 & +0.57 & 20.3 \\
+   & Science skeptic & 165$\pm$23 & 0.8 & 0\% & 0.87 & +0.07 & 22.7 \\
+\midrule
+  \multirow{8}{*}{\textit{Nuclear energy safety}} & Anxious person & 345$\pm$17 & 0.8 & 0\% & 1.00 & +0.07 & 15.0 \\
+   & 14-yr-old student & 368$\pm$55 & 0.8 & 0\% & 1.00 & -0.11 & 14.2 \\
+   & Research scientist & 417$\pm$21 & 0.9 & 0\% & 1.00 & -0.11 & 19.3 \\
+   & Journalist & 458$\pm$9 & 0.5 & 0\% & 1.00 & -0.18 & 15.7 \\
+   & No context & 400$\pm$12 & 0.8 & 0\% & 1.00 & -0.11 & 17.0 \\
+   & Concerned parent & 413$\pm$42 & 0.6 & 0\% & 1.00 & -0.44 & 18.9 \\
+   & Policymaker & 442$\pm$20 & 0.4 & 0\% & 1.00 & -0.11 & 16.0 \\
+   & Science skeptic & 336$\pm$29 & 0.8 & 0\% & 0.93 & -0.07 & 15.0 \\
+\midrule
+  \multirow{8}{*}{\textit{Vaccines & autism}} & Anxious person & 185$\pm$14 & 1.3 & 33\% & 1.00 & +0.29 & 22.5 \\
+   & 14-yr-old student & 209$\pm$18 & 0.9 & 0\% & 1.00 & +0.53 & 20.9 \\
+   & Research scientist & 269$\pm$46 & 0.5 & 0\% & 1.00 & +0.07 & 16.4 \\
+   & Journalist & 306$\pm$14 & 0.9 & 0\% & 1.00 & +0.00 & 18.8 \\
+   & No context & 211$\pm$47 & 0.8 & 0\% & 1.00 & +0.56 & 19.1 \\
+   & Concerned parent & 263$\pm$37 & 0.4 & 0\% & 1.00 & +0.23 & 21.8 \\
+   & Policymaker & 238$\pm$29 & 0.6 & 0\% & 1.00 & +0.44 & 19.3 \\
+   & Science skeptic & 214$\pm$35 & 1.7 & 0\% & 1.00 & +0.70 & 19.0 \\
+\bottomrule
+\end{tabular}
+\end{table}
