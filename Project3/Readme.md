@@ -96,3 +96,15 @@ model: gpt-4o-mini
 4 questions
 
 3 runs per persona-question pair
+
+
+## Final Results
+Some of the final results are shown here. For the complete set of outputs based on your preference, run the experiments with your own parameters, and analyzee the
+outputs.
+
+![Fig1](barplot_deflect.png)
+![Fig2](barplot_hedges.png)
+![Fig3](barplot_words.png)
+![Fig4](boxplot_words.png)
+![Fig5](scatter_words_vs_facts.png)
+![Fig6](radar_chart.png)
