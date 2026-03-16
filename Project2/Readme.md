@@ -52,4 +52,4 @@ Figure below shows the win rate of the model for two different configs (strict a
 Figure below shows the cheat rate of the same model and for the same configs:
 ![Cheat Rate](nim_results_v2/fig_cheat_rate.png)
 
-You can find the article [here](https://open.substack.com/pub/mahyarghazanfari/p/a-study-of-rule-violations-in-the?r=5uhfb7&utm_campaign=post&utm_medium=web)
+You can find the article [here](https://open.substack.com/pub/mahyarghazanfari/p/a-study-of-rule-violations-in-the?r=5uhfb7&utm_campaign=post&utm_medium=web).
