@@ -61,29 +61,6 @@ All results are saved in:
 ```bash
 results/
 ```
-## Generated files include:
-
-metrics_raw.csv — raw response-level data
-
-metrics_summary.csv — aggregated summary
-
-metrics_table.tex — LaTeX table
-
-heatmap_facts.png
-
-barplot_words.png
-
-barplot_hedges.png
-
-barplot_deflect.png
-
-radar_chart.png
-
-scatter_words_vs_facts.png
-
-boxplot_words.png
-
-Experiment settings
 
 ## The script currently uses:
 
