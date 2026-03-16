@@ -63,7 +63,7 @@ All results are saved in:
 ```bash
 results/
 ```
-Generated files include:
+## Generated files include:
 
 metrics_raw.csv — raw response-level data
 
@@ -87,7 +87,7 @@ boxplot_words.png
 
 Experiment settings
 
-The script currently uses:
+## The script currently uses:
 
 model: gpt-4o-mini
 
