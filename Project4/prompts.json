@@ -1,0 +1,212 @@
+[
+  {
+    "entry_id": 1,
+    "task_group": "Task Group 1",
+    "research_task": "Hypothesis brainstorming",
+    "prompt_goal": "Adverse weather effects on aerial VLMs",
+    "prompt": "I am studying vision-language models and computer vision for aerial drones. Propose 5 specific, testable research hypotheses about how adverse weather conditions such as fog, haze, rain, or low light affect the performance of vision-language systems on aerial scene understanding tasks. For each hypothesis, explain the mechanism behind it, what variables I should manipulate, what metric I should measure, and what result would support or refute the hypothesis. Be concrete and avoid generic suggestions."
+  },
+  {
+    "entry_id": 2,
+    "task_group": "Task Group 1",
+    "research_task": "Hypothesis brainstorming",
+    "prompt_goal": "Cross-modal alignment failures in drone imagery",
+    "prompt": "Generate 5 research hypotheses about failure modes in cross-modal alignment between aerial images and text descriptions in vision-language models for drones. Focus on issues like altitude change, scale variation, occlusion, motion blur, and ambiguous language. For each hypothesis, suggest a small experiment and explain why the hypothesis matters for real-world aerial applications."
+  },
+  {
+    "entry_id": 3,
+    "task_group": "Task Group 1",
+    "research_task": "Hypothesis brainstorming",
+    "prompt_goal": "Dataset bias in aerial settings",
+    "prompt": "I want hypotheses about dataset bias in aerial computer vision and vision-language tasks. Propose 5 hypotheses about how geographic region, season, urban versus rural settings, camera angle, and altitude might bias model behavior. For each one, describe a plausible source of bias, the likely impact on model performance, and how I could test it experimentally."
+  },
+  {
+    "entry_id": 4,
+    "task_group": "Task Group 1",
+    "research_task": "Hypothesis brainstorming",
+    "prompt_goal": "Weak supervision and noisy captions",
+    "prompt": "Suggest 5 research hypotheses about how noisy text annotations or weak captions affect the learning of vision-language models for aerial drone imagery. For each hypothesis, tell me what type of annotation noise is involved, why it should matter, and what observable outcome I should expect in retrieval, grounding, or classification tasks."
+  },
+  {
+    "entry_id": 5,
+    "task_group": "Task Group 1",
+    "research_task": "Hypothesis brainstorming",
+    "prompt_goal": "Temporal information in drone video VLM tasks",
+    "prompt": "Propose 5 hypotheses about the benefit of temporal information in drone video for vision-language tasks such as event description, target tracking explanation, or change detection. For each hypothesis, compare a single-frame system versus a temporal system and explain what evidence would show that temporal modeling is actually helping."
+  },
+  {
+    "entry_id": 6,
+    "task_group": "Task Group 1",
+    "research_task": "Hypothesis brainstorming",
+    "prompt_goal": "Safety-critical VLM reasoning for drones",
+    "prompt": "Generate 5 safety-oriented research hypotheses about using vision-language models in aerial drones for search and rescue, disaster assessment, or infrastructure inspection. Focus on cases where the model may sound convincing but be unreliable. For each hypothesis, identify the safety risk, the failure mechanism, and the type of benchmark or evaluation protocol needed."
+  },
+  {
+    "entry_id": 7,
+    "task_group": "Task Group 1",
+    "research_task": "Hypothesis brainstorming",
+    "prompt_goal": "Compression and edge deployment tradeoffs",
+    "prompt": "I need hypotheses about deploying vision-language models on resource-constrained drones. Propose 5 hypotheses about the tradeoff between model compression, latency, energy use, and task accuracy. For each hypothesis, explain what system variables I should measure and what results would indicate that the tradeoff is acceptable or problematic."
+  },
+  {
+    "entry_id": 8,
+    "task_group": "Task Group 1",
+    "research_task": "Hypothesis brainstorming",
+    "prompt_goal": "Multimodal fusion with thermal depth or LiDAR",
+    "prompt": "Propose 5 research hypotheses about combining aerial RGB imagery with thermal, depth, or LiDAR data in vision-language systems for drones. For each hypothesis, explain why the extra modality may help or fail to help, what task is most relevant, and how I could evaluate whether the multimodal fusion is genuinely useful."
+  },
+  {
+    "entry_id": 9,
+    "task_group": "Task Group 1",
+    "research_task": "Hypothesis brainstorming",
+    "prompt_goal": "Domain shift across drone platforms",
+    "prompt": "Generate 5 hypotheses about domain shift across different drone platforms, camera qualities, and flight patterns in aerial vision-language tasks. I want each hypothesis to include the likely cause of the domain shift, the expected model behavior, and a practical adaptation strategy I could test."
+  },
+  {
+    "entry_id": 10,
+    "task_group": "Task Group 1",
+    "research_task": "Hypothesis brainstorming",
+    "prompt_goal": "High-risk high-reward research directions",
+    "prompt": "Give me 5 ambitious but testable research hypotheses at the intersection of vision-language models, computer vision, and aerial drones. I want ideas that are novel enough for a research project, not just incremental engineering improvements. For each one, explain why it is interesting, what makes it risky, and what a first proof-of-concept experiment would look like."
+  },
+  {
+    "entry_id": 11,
+    "task_group": "Task Group 2",
+    "research_task": "Literature summarization",
+    "prompt_goal": "Research landscape overview",
+    "prompt": "Give me a structured overview of the research landscape at the intersection of vision-language models, computer vision, and aerial drones. Organize the answer into major themes, such as captioning, retrieval, grounding, navigation, surveillance, search and rescue, disaster response, and multimodal fusion. For each theme, summarize the core problem, common methods, and open challenges. Be careful not to invent papers."
+  },
+  {
+    "entry_id": 12,
+    "task_group": "Task Group 2",
+    "research_task": "Literature summarization",
+    "prompt_goal": "Aerial captioning and scene description",
+    "prompt": "Summarize the main research directions in aerial image captioning and scene description, especially when connected to vision-language modeling. I want the answer to explain typical datasets, model families, evaluation metrics, and recurring limitations. Distinguish between standard image captioning and aerial-specific challenges."
+  },
+  {
+    "entry_id": 13,
+    "task_group": "Task Group 2",
+    "research_task": "Literature summarization",
+    "prompt_goal": "Referring expression grounding in aerial imagery",
+    "prompt": "Summarize the literature on referring expression grounding or language-guided localization in aerial or remote sensing imagery. If the literature is sparse, say so clearly and connect it cautiously to neighboring areas. Explain the main tasks, benchmarks, methodological patterns, and the biggest technical obstacles."
+  },
+  {
+    "entry_id": 14,
+    "task_group": "Task Group 2",
+    "research_task": "Literature summarization",
+    "prompt_goal": "Domain adaptation and generalization",
+    "prompt": "Provide a literature-style summary of domain adaptation and domain generalization methods relevant to aerial computer vision and vision-language systems. Focus on the challenges of transferring across geography, season, sensor type, altitude, and weather. I want the summary to identify recurring ideas, common evaluation settings, and unresolved gaps."
+  },
+  {
+    "entry_id": 15,
+    "task_group": "Task Group 2",
+    "research_task": "Literature summarization",
+    "prompt_goal": "Robustness reliability and safety literature",
+    "prompt": "Summarize prior work on robustness, reliability, and safety in AI systems for aerial drones, especially where vision or vision-language models are involved. Explain what kinds of failures researchers study, what evaluation protocols are used, and where the literature is still weak or fragmented."
+  },
+  {
+    "entry_id": 16,
+    "task_group": "Task Group 2",
+    "research_task": "Literature summarization",
+    "prompt_goal": "Multimodal sensing for drones",
+    "prompt": "Give me a literature summary on multimodal aerial perception involving RGB plus thermal, depth, infrared, or LiDAR, with any connection you can make to vision-language systems. I want a synthesis of what problems these extra modalities help with, what fusion strategies are common, and what limitations remain."
+  },
+  {
+    "entry_id": 17,
+    "task_group": "Task Group 2",
+    "research_task": "Literature summarization",
+    "prompt_goal": "Efficient models for onboard inference",
+    "prompt": "Summarize the literature on efficient computer vision or vision-language modeling for edge deployment on drones. Focus on latency, memory, energy, compression, distillation, and onboard constraints. Explain how researchers evaluate efficiency and what tradeoffs are most important in practice."
+  },
+  {
+    "entry_id": 18,
+    "task_group": "Task Group 2",
+    "research_task": "Literature summarization",
+    "prompt_goal": "Temporal aerial video understanding",
+    "prompt": "Provide a literature summary on temporal aerial video understanding, including action recognition, event description, tracking, or change detection, and explain how these areas might connect to vision-language models. I want the answer to separate mature topics from speculative or emerging ones."
+  },
+  {
+    "entry_id": 19,
+    "task_group": "Task Group 2",
+    "research_task": "Literature summarization",
+    "prompt_goal": "Datasets and benchmarks",
+    "prompt": "Create a summary of major datasets and benchmarks relevant to vision-language models, computer vision, and aerial drones. Organize the answer by task type and explain what each dataset is useful for, what labels it provides, and what limitations or biases a researcher should keep in mind."
+  },
+  {
+    "entry_id": 20,
+    "task_group": "Task Group 2",
+    "research_task": "Literature summarization",
+    "prompt_goal": "Open problems and future directions",
+    "prompt": "Based on the research area of aerial drones, computer vision, and vision-language models, write a literature-style synthesis of the biggest open problems. I want the answer to identify gaps that are both scientifically interesting and practically important. Separate problems that are mostly data-related, model-related, evaluation-related, and deployment-related."
+  },
+  {
+    "entry_id": 21,
+    "task_group": "Task Group 3",
+    "research_task": "Experimental recommendations",
+    "prompt_goal": "Baseline experiment design",
+    "prompt": "Design a concrete baseline experiment for evaluating a vision-language model on an aerial drone task. Choose one realistic task, define the input-output setup, propose datasets, list baseline models, define evaluation metrics, identify confounders, and suggest ablations. The experiment should be feasible for a student research project."
+  },
+  {
+    "entry_id": 22,
+    "task_group": "Task Group 3",
+    "research_task": "Experimental recommendations",
+    "prompt_goal": "Robustness evaluation protocol",
+    "prompt": "Propose a robustness evaluation protocol for a vision-language system used on aerial drone imagery. I want the protocol to test changes in altitude, weather, camera angle, image quality, and scene clutter. For each factor, explain how it should be varied, what metrics should be measured, and how to interpret failure patterns."
+  },
+  {
+    "entry_id": 23,
+    "task_group": "Task Group 3",
+    "research_task": "Experimental recommendations",
+    "prompt_goal": "Ablation study design",
+    "prompt": "I want to run an ablation study for a vision-language model in an aerial drone setting. Recommend a structured ablation plan that isolates the effects of text prompt design, image resolution, temporal context, auxiliary sensor input, and model size. Explain the order in which I should run the ablations and what conclusions each one would support."
+  },
+  {
+    "entry_id": 24,
+    "task_group": "Task Group 3",
+    "research_task": "Experimental recommendations",
+    "prompt_goal": "Dataset audit procedure",
+    "prompt": "Recommend a step-by-step procedure for auditing an aerial computer vision or vision-language dataset before training a model. I want guidance on checking label quality, geographic bias, class imbalance, duplicate imagery, train-test leakage, and caption quality. Turn it into an actionable checklist I could follow."
+  },
+  {
+    "entry_id": 25,
+    "task_group": "Task Group 3",
+    "research_task": "Experimental recommendations",
+    "prompt_goal": "Safety-critical evaluation framework",
+    "prompt": "Design an evaluation framework for a safety-critical drone application such as search and rescue or infrastructure inspection that uses a vision-language model. Explain how I should measure not only task accuracy but also calibration, uncertainty, false confidence, and human oversight requirements."
+  },
+  {
+    "entry_id": 26,
+    "task_group": "Task Group 3",
+    "research_task": "Experimental recommendations",
+    "prompt_goal": "Data collection and annotation strategy",
+    "prompt": "Suggest a practical data collection and annotation strategy for a small research project involving drone imagery and language descriptions. I want recommendations on what scenes to collect, how to structure captions or instructions, how to ensure coverage and diversity, and how to avoid common annotation mistakes."
+  },
+  {
+    "entry_id": 27,
+    "task_group": "Task Group 3",
+    "research_task": "Experimental recommendations",
+    "prompt_goal": "Efficiency versus quality experiment",
+    "prompt": "Recommend an experiment to evaluate the tradeoff between inference quality and onboard efficiency for a vision or vision-language model on drones. Include what hardware constraints to simulate, what latency and energy metrics to track, and how to decide whether a model is deployable."
+  },
+  {
+    "entry_id": 28,
+    "task_group": "Task Group 3",
+    "research_task": "Experimental recommendations",
+    "prompt_goal": "Single-frame versus temporal comparison",
+    "prompt": "Design a fair comparison between a single-frame model and a temporal model for an aerial drone task that involves language or high-level scene understanding. Explain dataset requirements, evaluation metrics, possible confounders, and what results would justify the extra complexity of temporal modeling."
+  },
+  {
+    "entry_id": 29,
+    "task_group": "Task Group 3",
+    "research_task": "Experimental recommendations",
+    "prompt_goal": "Error analysis workflow",
+    "prompt": "Create a detailed error analysis pipeline for a vision-language system in aerial computer vision. I want a workflow that helps me categorize failures by scene type, object scale, language ambiguity, image quality, and domain shift. Explain what artifacts I should save and how I should summarize the errors in a paper or blog post."
+  },
+  {
+    "entry_id": 30,
+    "task_group": "Task Group 3",
+    "research_task": "Experimental recommendations",
+    "prompt_goal": "End-to-end student project ideas",
+    "prompt": "Assume I am a student doing a focused project on vision-language models, computer vision, and aerial drones. Recommend 3 end-to-end project ideas that are realistic in scope, scientifically meaningful, and feasible in a limited time. For each one, provide the research question, experiment design, likely risks, minimum viable result, and what would make the project blog-worthy."
+  }
+]
