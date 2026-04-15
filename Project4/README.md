@@ -25,4 +25,8 @@ python3 run_openai_batch.py
 2. Open `outputs/responses.json`.
 3. Read each saved response.
 4. Enter your scores in `results_log.csv`.
-5. Use the scored results for plots and the final blog post.
+
+5. ## Report
+You can find the prompt templates and responses I used for project 4 here. You can also find the article [here](https://mahyarghazanfari.substack.com/p/c775ef0f-49d5-48d1-b565-622cd1dafaa6).
+
+7. Use the scored results for plots and the final blog post.
