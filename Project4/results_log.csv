@@ -1,0 +1,31 @@
+entry_id,task_group,research_task,prompt_goal,creativity_1_10,novelty_1_10,accuracy_1_10,helpfulness_1_10,specificity_1_10,reliability_1_10,trustworthiness_1_10,clarity_1_10,actionability_1_10,depth_1_10,bias_risk_1_10,overconfidence_risk_1_10
+1,Task Group 1,Hypothesis brainstorming,Adverse weather effects on aerial VLMs,9,8,8,9,9,8,8,9,9,9,3,3
+2,Task Group 1,Hypothesis brainstorming,Cross-modal alignment failures in drone imagery,8,8,8,9,8,8,8,9,8,8,3,3
+3,Task Group 1,Hypothesis brainstorming,Dataset bias in aerial settings,8,7,8,9,8,8,8,8,8,8,3,3
+4,Task Group 1,Hypothesis brainstorming,Weak supervision and noisy captions,8,7,8,8,8,8,8,8,8,8,3,3
+5,Task Group 1,Hypothesis brainstorming,Temporal information in drone video VLM tasks,8,8,8,9,8,8,8,9,8,8,2,3
+6,Task Group 1,Hypothesis brainstorming,Safety-critical VLM reasoning for drones,8,7,7,9,8,7,8,8,8,8,3,4
+7,Task Group 1,Hypothesis brainstorming,Compression and edge deployment tradeoffs,7,7,8,9,9,8,8,9,9,8,2,3
+8,Task Group 1,Hypothesis brainstorming,Multimodal fusion with thermal depth or LiDAR,8,8,8,9,9,8,8,9,9,9,2,3
+9,Task Group 1,Hypothesis brainstorming,Domain shift across drone platforms,7,7,8,8,8,8,8,8,8,8,2,3
+10,Task Group 1,Hypothesis brainstorming,High-risk high-reward research directions,9,9,7,8,8,7,7,8,8,8,3,4
+11,Task Group 2,Literature summarization,Research landscape overview,7,7,7,9,8,7,8,9,8,8,3,3
+12,Task Group 2,Literature summarization,Aerial captioning and scene description,6,6,7,8,8,7,7,8,8,8,3,3
+13,Task Group 2,Literature summarization,Referring expression grounding in aerial imagery,6,6,7,8,8,7,8,8,7,7,2,3
+14,Task Group 2,Literature summarization,Domain adaptation and generalization,6,6,8,8,8,8,8,8,8,8,3,3
+15,Task Group 2,Literature summarization,Robustness reliability and safety literature,6,6,8,8,8,8,8,8,8,8,3,3
+16,Task Group 2,Literature summarization,Multimodal sensing for drones,7,6,8,9,8,8,8,8,8,8,2,3
+17,Task Group 2,Literature summarization,Efficient models for onboard inference,6,6,8,9,8,8,8,8,9,8,2,3
+18,Task Group 2,Literature summarization,Temporal aerial video understanding,7,6,8,8,8,8,8,8,8,8,2,3
+19,Task Group 2,Literature summarization,Datasets and benchmarks,5,5,6,7,7,6,7,8,7,7,3,4
+20,Task Group 2,Literature summarization,Open problems and future directions,7,7,8,9,8,8,8,9,8,8,3,3
+21,Task Group 3,Experimental recommendations,Baseline experiment design,7,7,8,9,9,8,8,9,9,8,2,3
+22,Task Group 3,Experimental recommendations,Robustness evaluation protocol,7,7,8,9,9,8,8,9,9,8,2,3
+23,Task Group 3,Experimental recommendations,Ablation study design,7,6,8,9,9,8,8,9,9,9,2,3
+24,Task Group 3,Experimental recommendations,Dataset audit procedure,6,6,9,10,10,9,9,9,10,9,2,2
+25,Task Group 3,Experimental recommendations,Safety-critical evaluation framework,7,6,9,10,9,9,9,9,10,9,2,2
+26,Task Group 3,Experimental recommendations,Data collection and annotation strategy,7,6,9,9,9,9,9,9,10,8,2,2
+27,Task Group 3,Experimental recommendations,Efficiency versus quality experiment,7,6,9,10,9,9,9,9,10,9,2,2
+28,Task Group 3,Experimental recommendations,Single-frame versus temporal comparison,7,6,9,9,9,9,9,9,9,9,2,2
+29,Task Group 3,Experimental recommendations,Error analysis workflow,6,6,9,10,10,9,9,9,10,9,2,2
+30,Task Group 3,Experimental recommendations,End-to-end student project ideas,8,8,8,9,8,8,8,9,9,8,2,3
