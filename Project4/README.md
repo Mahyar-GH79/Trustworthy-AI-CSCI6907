@@ -1,4 +1,4 @@
-# Option 3: AI in Scientific Research
+# AI in Scientific Research
 
 This workspace now supports a fully structured 30-prompt study for vision-language models, computer vision, and aerial-drone applications.
 
