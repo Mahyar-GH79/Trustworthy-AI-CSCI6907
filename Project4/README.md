@@ -8,8 +8,6 @@ This workspace now supports a fully structured 30-prompt study for vision-langua
 - `run_openai_batch.py`: sends all prompts to the OpenAI Responses API
 - `outputs/responses.json`: saved model outputs after running the script
 - `results_log.csv`: score-only sheet for your 1-10 ratings
-- `project_plan.md`: project framing and evaluation setup
-- `blog_post_template.md`: final write-up template
 
 ## Run
 
